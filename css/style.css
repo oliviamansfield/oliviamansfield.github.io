@@ -33,13 +33,13 @@ p{
 	line-height: 1.6;
 }
 
-#intro{
+#title{
 	height: 100%;
 	width: 100%;
 	background: url(../img/temp_title.svg) center center no-repeat;
 }
 
-.no-svg #intro{
+.no-svg #title{
 	background: url(../img/temp_title.png) center center no-repeat;
 }
 
@@ -70,14 +70,24 @@ p{
 		background-position: top left;
 	}
 
-	#intro{
-		margin-top: 40px;
-		background-size: 90%;
+	#title{
+		height: 118px;
+		width: 100%;
+		margin-top: 80px;
 		background: url(../img/temp_title2.svg) top center no-repeat;
 	}
 
 	.no-svg #intro{
 		background: url(../img/temp_title2.png) top center no-repeat;
+	}
+
+	#temp{
+		position: relative;
+		bottom: auto;
+		left: auto;
+		-webkit-transform: none;
+		transform: none;
+		margin-top: 40px;
 	}
 
 	.alpha,.right{
