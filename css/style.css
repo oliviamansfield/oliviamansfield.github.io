@@ -40,7 +40,7 @@ p{
 }
 
 .no-svg #intro{
-	background: url(../img/temp_title.png);
+	background: url(../img/temp_title.png) center center no-repeat;
 }
 
 #temp{
@@ -71,12 +71,13 @@ p{
 	}
 
 	#intro{
+		margin-top: 40px;
 		background-size: 90%;
-		background: url(../img/temp_title2.svg) center center no-repeat;
+		background: url(../img/temp_title2.svg) top center no-repeat;
 	}
 
 	.no-svg #intro{
-		background: url(../img/temp_title2.png);
+		background: url(../img/temp_title2.png) top center no-repeat;
 	}
 
 	.alpha,.right{
